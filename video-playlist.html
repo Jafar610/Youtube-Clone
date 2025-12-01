@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video playlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+      <div class="left-sidebar">
+        <img src="./images/menu.png" class="menu-icon" />
+        <img src="./images/logo.png" class="logo" />
+      </div>
+      <div class="middle-sidebar">
+        <div class="search-container">
+          <input type="text" class="search-bar" placeholder="Search" />
+          <img src="./images/search.png" class="search-icon" />
+        </div>
+
+        <img src="./images/voice-search.png" class="mic-icon" />
+      </div>
+      <div class="right-sidebar">
+        <img src="./images/upload.png" class="upload-icon" />
+        <img src="./images/more.png" class="apps-icon" />
+        <img src="./images/notification.png" class="notifications-icon" />
+        <img src="./images/Jack.png" class="profile-icon" />
+      </div>
+    </nav>
+
+
+
+    <!-- -----------main section----------- -->
+     <div class="video-playlist-container">
+        <div class="videos-left-section">
+            <video controls autoplay>
+                <source src="./images/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-info">
+                <img src="./images/Jack.png" class="user-img">
+                <h3>Learn HTML in 15 Minutes</h3>
+                <p>1M views • 2 weeks ago</p>
+
+            </div>
+        </div>
+        <div class="recommanded-video-right-section">
+            <div class="vid-list">
+                <a href=""><img src="./images/thumbnail1.png"></a>
+                <div class="video-info">
+                    <h4>Best Channel to learn code.</h4>
+                    <p>Code Academy</p>
+                    <p>15K Views &bull; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
