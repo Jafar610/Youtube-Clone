@@ -282,3 +282,26 @@ nav {
   align-items: center;
   margin-left: 15px;
 }
+
+.video-playlist hr{
+  height: 1px;
+  margin:10px 0;
+  color:#ccc;
+
+}
+
+.publisher{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.publisher div{
+  flex: 1;
+  line-height: 18px;
+}
+.publisher img{
+  width:40px;
+  border-radius: 50%;
+  margin-right:20px;
+}
+
