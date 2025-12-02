@@ -256,3 +256,29 @@ nav {
 .side-video-list .vid-info{
   flex-basis:49%;
 }
+.video-playlist .tags a{
+  color:#0000ff;
+  font-size: 13px;
+}
+.video-playlist h4{
+  font-weight: 600;
+  font-size:22px;
+}
+.video-playlist .play-video-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size:14px;
+  color:#5a5a5a;
+}
+.video-playlist .play-video-info a img{
+  width:20px;
+  margin-right: 8px;
+}
+.video-playlist .play-video-info a{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 15px;
+}
