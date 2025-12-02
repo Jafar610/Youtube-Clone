@@ -224,12 +224,22 @@ nav {
 }
 
 
-
-
-
-
-
-
 /* video playlist */
-
+.play-container{
+  padding-left: 2%;
+}
+.row{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.video-playlist{
+  flex-basis:69%;
+}
+.right-sidebar{
+  flex-basis: 30%;
+}
+.video-playlist video{
+  width:100%;
+}
 
